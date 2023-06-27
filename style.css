@@ -31,3 +31,7 @@ body h1 + p .special {
     background-color: black;
     padding: 5px;
 }
+.dog {
+color:red;
+font-weight: bold
+}
