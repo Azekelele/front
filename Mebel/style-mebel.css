@@ -116,6 +116,10 @@ body {
     min-width: 550px;
     background-color: #847462;
     color: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
   
   .site-footer .container {

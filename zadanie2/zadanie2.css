@@ -1,0 +1,57 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    height: 5000px;
+}
+.logo-cont {
+    background-image: url('./images and icons/logo.png');   
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-size {
+    height: 31px;
+    width: 163px;
+    margin: 10px 50px;
+    padding: 10px;
+    position: absolute;
+}
+.bg-pic {
+    background-image: url('./images and icons/masjid-nabawi-5515745_1920 1.jpg');
+    height: 100vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.size {
+    background-size: cover;
+    background-position: center;
+}
+.ul-centred {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+.nav-inline {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+}
+.pad-mar {
+    margin: 10px;
+    padding: 10px;
+}
+.outer-div {
+    width: 100%;
+    height: 71px;
+    text-align: center;
+    background-color: black;
+}
+.inner-div {
+    display: inline-block;
+    margin: 0px;
+    padding: 9px;
+    background-color: red;
+    text-align: center;
+}
+.left-div {
+    justify-content: left;
+}
