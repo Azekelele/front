@@ -1,0 +1,95 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="api-style.css">
+        <title>Документация</title>
+        <meta name="Работа api" content="Пробник работы с документаций по API для обучения">
+    </head>
+    <body>
+        <header class="Header-block">
+            <div class="Logo-in-line">
+                <div class="adata-logo">
+                    <img src="C:\Users\user\Desktop\front\API\images\Logo.svg">
+                </div>
+                <div class="doc-version">
+                    <img src="C:\Users\user\Desktop\front\API\images\doc-1.svg">
+                </div>
+            </div>
+            <div class="right-side-icon">
+                    <div class="second-left-icon">
+                        <img src="C:\Users\user\Desktop\front\API\images\brightness.svg">
+                    </div>
+                    <div>
+                        <i class="input-search-icon"></i>
+                        <input type="search" name="searchField" placeholder="Поиск по документации" class="search-input">
+                    </div>
+                </div>
+        </header>
+        <main class="main-app">
+            <nav class="nav-space">
+                <div class="sidenav">
+                    <div>
+                    <p class="second-text">Введение</p>
+                    </div>
+                    <div>
+                        <p><a href="#">Начало работы</a></p>
+                    </div>    
+                    <div>
+                        <p class="second-text">Модули</p>
+                    </div>
+                    <div>
+                        <p><a href="#">Расширенная информация компании (Full API)</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Расширенная информация о физ лице (Full API FL)</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Детализация: Лицензий и Компании</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Детализация: Судебные разбирательства</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Детализация: Контракты</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Санкции</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Наименование Контрагентов</a></p>
+                    </div>
+                    <div>
+                        <p><a href="#">Бенефициары</a></p>
+                    </div>
+                </div>
+            </nav>
+            <div class="main-content">
+            <div>
+                <h1>Начало работы</h1>
+            </div>
+            <div>
+                <p class="main-content-text">Application Programming Interface (API)  это интерфейс взаимодействия сервиса Adata с вашими внутренними информационными системами. Используя API вы не привязаны к личному кабинету Adata, все запросы будут выполняться автоматически из вашей системы по работе с контрагентами в режиме онлайн. Наши специалисты готовы оказать техническую и консультационную поддержку при интеграции вашей системы с сервисом Adata с последующим техническим сопровождением.</p>
+                <p class="main-content-text">Для получения данных через Adata API используется технология Длинных опросов long pooling
+
+                    Самый простой способ получать новую информацию от сервера – периодический опрос. «Длинные опросы» – гораздо лучший способ взаимодействия с сервером.
+                    Они также очень просты в реализации, и сообщения доставляются без задержек.
+                    
+                    Как это происходит:
+                    
+                    Запрос отправляется на сервер.
+                    Сервер не закрывает соединение, пока у него не возникнет сообщение для отсылки.
+                    Когда появляется сообщение – сервер отвечает на запрос, посылая его.
+                    Клиент немедленно делает новый запрос.
+                    Периодически отправляется запрос, пока клиент не получит нужные данные
+                    
+                    Чтобы получить Расширенную информацию компании Full API нужно отправить 2 запроса:
+                    
+                    Запрос, регистрирующий заявку на получения данных Get Request
+                    Запрос который проверяет статус заявки и возвращает Данные Check Request
+                    </p>
+            </div>
+            </div>
+        </main>
+    </body>
+</html>

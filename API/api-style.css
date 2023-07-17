@@ -1,0 +1,97 @@
+body {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+.Header-block {
+    gap: 1908px;
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 24px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    border-bottom-style: solid;
+    border-color: #EBEBEC;
+}
+.Logo-in-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 8px;
+}
+.doc-version {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+.right-side-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.second-left-icon{
+    display: flex;
+}
+.search-input {
+width: 330px;
+height: 38px;
+background-color: #F6F8FC;
+border: none;
+border-radius: 4px;
+padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav{
+    height: 100vh;
+    width: 305px;
+    border-right-style: solid;
+    border-color: #EBEBEC;
+    margin: 0px;
+    padding: 28px 24px;
+    font-weight: 600;
+}
+.second-text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #A6A6A6;
+    margin: 0px;
+}
+p {
+    margin: 16px;
+}
+.nav-space {
+    display: flex;
+    gap: 20px;
+}
+.main-app {
+    display: flex;
+    gap: 500px;
+}
+.main-content {
+    margin-top: 64px;
+    width: 809px;
+    align-items: center;
+    justify-content: center;
+}
+.main-content-text {
+    margin: 0px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    color: #2C3E50;
+} 
+  a:hover {
+    color: lightgreen;
+    text-decoration:underline;
+  } 
+  a:active {
+    color: hotpink;
+  } 
